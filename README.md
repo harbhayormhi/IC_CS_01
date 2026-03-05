@@ -1,38 +1,20 @@
-# 🔎 Web Vulnerability Scanner/web Automation
+# Cybersecurity Projects Portfolio
 
-## 📌 Project Overview
+This repository contains multiple cybersecurity projects demonstrating practical skills in offensive and defensive security.
 
-This project is a Python-based web application security scanner developed during my cybersecurity internship with interncred.
+## Projects
 
-The scanner automatically analyzes websites to detect common web vulnerabilities and security misconfigurations and check for SQL and XSS injection.
+### 1. Phishing Detection System
+Detects phishing URLs using rule-based analysis and machine learning.
 
----
+Folder: /phishing-detector
 
-## 🎯 Objectives
+### 2. Secure File Sharing System
+Secure file upload system using AES encryption and RSA key exchange.
 
-- Learn automated vulnerability scanning
-- Understand web security concepts
-- Practice Python scripting for cybersecurity
-- Implement OWASP Top 10 concepts
+Folder: /secure-file-sharing
 
----
+### 3. Web Application Security Scanner
+Scans web applications for common vulnerabilities like XSS and SQL injection.
 
-## 🚀 Features
-
-- Website scrapper (link discovery)
-- SQL Injection testing
-- Cross-Site Scripting (XSS) testing
-- Security header analysis
-- Automated reporting
-
----
-
-## 🧠 How It Works
-
-1. User inputs a target URL.
-2. The scrapper collects internal website links.
-3. Each page is scanned for:
-   - SQL Injection vulnerabilities
-   - XSS vulnerabilities
-   - Missing security headers
-4. Results are compiled into a scan report.
+Folder: /web-security-scanner
